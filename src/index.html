@@ -1,18 +1,17 @@
 <!DOCTYPE html5>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"/>
     <link rel="stylesheet" href="./assets/styles/indexStyles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
     <title>Frontend Mentor | Order summary card</title>
   </head>
   <body class="container">
-    <div class="card">
+    <main class="card">
       <img class="card__image" src="./assets/img/illustration-hero.svg" alt="">
       <section class="card__info">
         <h1 class="card__title">Order Summary</h1>
@@ -28,11 +27,11 @@
               $59.99/year
             </span>
           </div>
-          <a href="#"> Change </a>
+          <a class="card__pay--change" href="#"> Change </a>
         </div>
         <button class="card__button--buy">Proceed to Payment</button>
         <button class="card__button--cancel">Cancel Order</button>
       </section>
-    </div>
+    </main>
   </body>
 </html>
