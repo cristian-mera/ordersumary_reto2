@@ -1,4 +1,4 @@
-:root{
+:root {
   /* Colores */
   --pale-blue: hsl(225, 100%, 94%);
   --bright-blue: hsl(245, 75%, 52%);
@@ -9,13 +9,13 @@
   --ligth-gray:rgb(248,249,254);
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.container{
+.container {
   display: flex;
   justify-content: center;
   align-items: center;  
@@ -23,7 +23,7 @@
   background-color: var(--ligth-blue);
 }
 
-.card{
+.card {
   display: flex;
   flex-direction: column;
   height: auto;
@@ -34,26 +34,26 @@
   border-radius: 1.2rem;
 }
 
-.card__image{
+.card__image {
   border-radius: 1.2rem 1.2rem 0 0;
   width: 100%;
 }
 
-.card__info{
+.card__info {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.card__title{
+.card__title {
   font-weight: 900;
   font-size: 20px;
   color: var(--dark-blue);
   margin-top: 1.6rem;
 }
 
-.card__text{
+.card__text {
   text-align: center;
   font-weight: 500;
   font-size: 16px;
@@ -61,7 +61,7 @@
   margin: 1rem 1.8rem;
 }
 
-.card__pay{
+.card__pay {
   display: flex;
   background-color: var(--ligth-gray);
   justify-content: space-between;
@@ -72,24 +72,24 @@
   margin: 1rem 0;
 }
 
-.card__pay--title{
+.card__pay--title {
   font-weight: 900;
   font-size: 14px;
   color: var(--dark-blue);
 }
 
-.card__pay--price{
+.card__pay--price {
   font-weight: 500;
   font-size: 14px;
   color: var(--desaturated-blue);
 }
 
-.card__pay--change{
+.card__pay--change {
   font-weight: 500;
   font-size: 14px;
 }
 
-.card__button--buy{
+.card__button--buy {
   border: none;
   background-color: var(--bright-blue);
   width: 280px;
@@ -100,7 +100,7 @@
   box-shadow: 0px 10px 25px 10px rgba(0,0,0,0.2);
 }
 
-.card__button--cancel{
+.card__button--cancel {
   border: none;
   background: none;
   font-weight: 900;
